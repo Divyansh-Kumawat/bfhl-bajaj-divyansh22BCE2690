@@ -3,10 +3,10 @@ const app = express();
 app.use(express.json());
 
 // User details (replace with your own)
-const FULL_NAME = 'john doe'; // lowercase
-const DOB = '17091999'; // ddmmyyyy
-const EMAIL = 'john@xyz.com';
-const ROLL_NUMBER = 'ABCD123';
+const FULL_NAME = 'Divyansh Kumawat'; // lowercase
+const DOB = '23022004'; // ddmmyyyy
+const EMAIL = 'divyansh.kumawat2022@vitstudent.ac.in';
+const ROLL_NUMBER = '22BCE2690';
 
 function isNumber(str) {
   return /^\d+$/.test(str);
