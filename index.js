@@ -2,9 +2,8 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-// User details (replace with your own)
-const FULL_NAME = 'Divyansh Kumawat'; // lowercase
-const DOB = '23022004'; // ddmmyyyy
+const FULL_NAME = 'idvyansh kumawat'; 
+const DOB = '23022004'; 
 const EMAIL = 'divyansh.kumawat2022@vitstudent.ac.in';
 const ROLL_NUMBER = '22BCE2690';
 
@@ -49,7 +48,7 @@ app.post('/bfhl', (req, res) => {
         special.push(item);
       }
     }
-    // Reverse concatAlpha and apply alternating caps
+    
     let reversed = concatAlpha.split('').reverse().join('');
     let concatString = alternatingCaps(reversed);
     res.status(200).json({
